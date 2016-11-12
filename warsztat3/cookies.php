@@ -6,7 +6,7 @@ function displayCookie() {
     if (isset($_COOKIE['user'])) {
         $date = $_COOKIE['user'];
     } else {
-        return 'jeszcze tu nie byłeś';
+        return 'jeszcze tu nie byłeś lub wyzerowałeś dane';
     }
     return $date;
 }

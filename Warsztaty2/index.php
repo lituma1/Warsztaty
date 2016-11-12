@@ -10,7 +10,7 @@
                 <?php 
                 //include ('lotto.php'); 
                 ?>
-                <form action="lotto.php" method="POST">
+                <form action="lotto.php?start=5&end=30" method="POST">
                     <?php
                     for ($i = 1; $i <= 49; $i++) {
                         echo'<label>';
